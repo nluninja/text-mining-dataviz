@@ -1,0 +1,14 @@
+name: lesson15
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+        - openpyxl==3.0.9
+        - seaborn
+        - wordcloud
