@@ -1,0 +1,17 @@
+name: lesson16
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - matplotlib
+  - folium
+  - plotly
+  - jupyterlab
+  - ipywidgets
+  - jupyter-dash
+  - pip
+  - pip:
+        - openpyxl==3.0.9
