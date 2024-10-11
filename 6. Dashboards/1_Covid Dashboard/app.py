@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+'''
+COVID app
+
+'''
 
 import dash
 import dash_bootstrap_components as dbc

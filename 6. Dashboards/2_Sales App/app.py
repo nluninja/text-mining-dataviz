@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 
+'''
+Sales DashBoard App
+
+'''
 ################################### Important Point ##############################
 #################################
 ###    Please add debug = True in line 399 if you are running the code using Anaconda Prompt 
@@ -16,7 +20,11 @@ import numpy as np
 
 
 ## reading the dataset 
-pd_2 = pd.read_csv('retail_sales.csv')
+
+url = 'https://raw.githubusercontent.com/nluninja/text-mining-dataviz/refs/heads/main/6.%20Dashboards/2_Sales%20App/retail_sales.csv'
+
+pd_2 = pd.read_csv(url)
+
 pd_2['Date'] = pd.to_datetime(pd_2['Date'], format='%Y-%m-%d')
 
 
