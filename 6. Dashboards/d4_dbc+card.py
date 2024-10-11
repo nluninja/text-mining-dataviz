@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Sep 29 01:10:57 2020
+Visualizing Cards into the Dashboards
 
-@author: anmol
 """
 
 import dash
