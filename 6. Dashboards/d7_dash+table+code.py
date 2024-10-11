@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Sep  1 20:32:35 2020
+Tables: Data Tables in Dash component designed for viewing, editing, and exploring large datasets.
 
-@author: anmol
 """
 
 
@@ -11,10 +10,10 @@ import dash_html_components as html
 import dash_table
 import pandas as pd
 
-# df = pd.read_csv("https://raw.githubusercontent.com/plotly/datasets/master/multiple_y_axis.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/plotly/datasets/master/multiple_y_axis.csv")
 
 
-
+''' 
 data = {'Date': ['July 12th, 2013 - July 25th, 2013','July 12th, 2013 - July 25th, 2013'],
         'Election Polling Organization':['The New York Times','Pew Research'],
         'Rep':[10,15],
@@ -22,6 +21,8 @@ data = {'Date': ['July 12th, 2013 - July 25th, 2013','July 12th, 2013 - July 25t
         'Region':['Northern New York State to the Southern Appalachian Mountains','Canada']}
 
 df=pd.DataFrame(data)
+
+'''
 
 app = dash.Dash()
 
@@ -61,8 +62,8 @@ table = dash_table.DataTable(
         'textAlign':'center',
         'border':'4px solid white',
         'maxWidth':'50px',
-        # 'whiteSpace':'normal'
-        'textOverflow':'ellipsis'
+        # 'whiteSpace':'normal' # apply the word wrap style to the content
+        'textOverflow':'ellipsis' # append ... 
         
       
         }

@@ -1,12 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Aug 28 01:47:14 2020
+DCC Components: predefined components for data visualization available in the Dash Library
 
-@author: anmol
-"""
+https://dash.plotly.com/dash-core-components
 
-############################### dcc components ##########################
-    
+"""    
     
 import dash
 import dash_html_components as html
@@ -20,6 +18,7 @@ app = dash.Dash()
 app.layout = html.Div([
 
     #dropdown 
+
   html.Div(id = 'dropdown_div', children = [dcc.Dropdown( id = 'dropdown',
         options = [
             {'label':'amazing', 'value':'5' },
@@ -56,7 +55,7 @@ app.layout = html.Div([
              ),
    
    html.Br(),
-   
+      
    dcc.Checklist(id = 'checklist',
              options = [
             {'label':'amazing', 'value':'5' },
