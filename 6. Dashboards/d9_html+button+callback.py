@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Sep  8 00:52:04 2020
 
-@author: anmol
-"""
 
 # from emb_cov import *
 import dash

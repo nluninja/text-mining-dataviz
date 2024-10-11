@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Oct  3 14:48:27 2020
 
-@author: anmol
-"""
 
 import dash
 import dash_core_components as dcc
