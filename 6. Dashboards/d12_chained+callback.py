@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
+'''
+Chained Callbacks
+- the output of one callback function is used as the input of another callback function.
 
+'''
 
 import dash
 import dash_core_components as dcc
@@ -7,14 +11,12 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import pandas as pd 
 
-# #the output of one callback function could be the input of another callback function.
-
 
 app = dash.Dash()
 
 options_all = {
     'America': ['New York City', 'San Francisco', 'Cincinnati'],
-    'India': ['Delhi', 'Mumbai', 'Bangalore']
+    'Italy': ['Rome', 'Milan', 'Modena']
 }
 
 
@@ -24,7 +26,7 @@ app.layout = html.Div(id = 'parent', children = [
     
     dcc.Dropdown(id = 'country-dropdown', 
                  options = [{'label':i, 'value':i} for i in df.columns],
-                 value = 'India'),
+                 value = 'Italy'),
     
     html.Br(),
     

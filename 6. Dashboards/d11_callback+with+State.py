@@ -1,5 +1,12 @@
 # -*- coding: utf-8 -*-
 
+''' 
+Inputs and States in DashBoards
+- Inputs are input elements that trigger the callback
+- State are input elements that don't trigger the callback
+
+'''
+
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -17,8 +24,8 @@ app.layout = html.Div([
 
 @app.callback(Output(component_id='output-state', component_property='children'),
               [Input(component_id='submit-button-state', component_property='n_clicks')],
-               [State(component_id='input-1-state', component_property='value'),
-               State(component_id='input-2-state', component_property='value')
+               [State(component_id='input-1-state', component_property='value'), #Input
+               State(component_id='input-2-state', component_property='value') #Input
                ])
 
 def update_output(n_clicks, input1, input2):
