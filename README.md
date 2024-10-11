@@ -12,6 +12,6 @@ Course contents:
   * Latent Dirischlet Allocation
   * Non Negative Matrix Factorization
 * Data Visualization: see how to visualize your dataset in Python
-* DashBoards: make Plots dynamics building an interactive dashboard
+* DashBoards: make Plots dynamic building an interactive dashboard, using Dash
 
 Updated: Academic Year 2024/2025
