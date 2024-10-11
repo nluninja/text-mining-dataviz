@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
-
+'''
+Callbacks with Multiple Inputs and Multiple Outputs.
+we create a GapMinder dataset with a bubble plot chart that is updted according the 
+timeline and the dropdown list selection.
+'''
 
 import dash
 import dash_core_components as dcc
@@ -8,11 +12,9 @@ import plotly.express as px
 from dash.dependencies import Input, Output
 import numpy as np
 
+# GapMinder dataset: https://www.gapminder.org/data/
 
 df = px.data.gapminder()
-
-
-
 
 app = dash.Dash()
 
