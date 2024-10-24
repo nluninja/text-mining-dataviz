@@ -13,5 +13,7 @@ Course contents:
   * Non Negative Matrix Factorization
 * Data Visualization: see how to visualize your dataset in Python
 * DashBoards: make Plots dynamic building an interactive dashboard, using Dash
+* Neural Networks: how to classify data with Neural Networks - Tensorflow and PyTorch samples
+* Embeddings: moving to a wector-based represetation for each word
 
 Updated: Academic Year 2024/2025
