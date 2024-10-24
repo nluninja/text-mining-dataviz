@@ -14,7 +14,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 import dash_core_components as dcc
 
-
+#inizializzazione dell'applicazione
 app = dash.Dash()
 
 

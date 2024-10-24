@@ -10,10 +10,10 @@ import dash_html_components as html
 import dash_table
 import pandas as pd
 
-df = pd.read_csv("https://raw.githubusercontent.com/plotly/datasets/master/multiple_y_axis.csv")
+#df = pd.read_csv("https://raw.githubusercontent.com/plotly/datasets/master/multiple_y_axis.csv")
 
 
-''' 
+
 data = {'Date': ['July 12th, 2013 - July 25th, 2013','July 12th, 2013 - July 25th, 2013'],
         'Election Polling Organization':['The New York Times','Pew Research'],
         'Rep':[10,15],
@@ -22,7 +22,7 @@ data = {'Date': ['July 12th, 2013 - July 25th, 2013','July 12th, 2013 - July 25t
 
 df=pd.DataFrame(data)
 
-'''
+
 
 app = dash.Dash()
 
@@ -33,9 +33,9 @@ table = dash_table.DataTable(
     
     fixed_rows = {'headers':True},
     
-    style_table = {'maxHeight':'450px'},
+        style_table = {'maxHeight':'450px'},
     
-    style_header = {'backgroundColor':'rgb(224,224,224)',
+          style_header = {'backgroundColor':'rgb(224,224,224)',
                     'fontWeight':'bold',
                     'border':'4px solid white'},
     
@@ -62,11 +62,12 @@ table = dash_table.DataTable(
         'textAlign':'center',
         'border':'4px solid white',
         'maxWidth':'50px',
-        # 'whiteSpace':'normal' # apply the word wrap style to the content
-        'textOverflow':'ellipsis' # append ... 
+        'whiteSpace':'normal' # apply the word wrap style to the content
+        #'textOverflow':'ellipsis' # append ... 
         
       
         }
+
     
     
   )

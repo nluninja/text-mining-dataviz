@@ -1,0 +1,16 @@
+name: lesson9
+dependencies:
+  - python=3.9
+  - tensorflow
+  - keras
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pytorch
+  - jupyter
+  - pip
+  - tqdm
+  - pip:
+    - torchinfo
