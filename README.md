@@ -2,8 +2,8 @@
 This repository contains the notebooks shown during the lessons of Data Visualization and Text Mining course.
 
 Course contents:
-* [NLP in practice](/2. NLP in Practice): use SpaCy and NLTK to understand NLP algorithms
-* Text Classification with ML: apply Machine Learning to text data sources
+* [NLP in practice](/2. NLP in Practice/): use SpaCy and NLTK to understand NLP algorithms
+* [Text Classification with ML](/3. Text Classification/): apply Machine Learning to text data sources
   * Supervised Learning in Machine Learning
   * Bag-of-Words
   * CountVectorizer vs TDFVectorizer
