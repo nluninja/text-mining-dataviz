@@ -1,5 +1,0 @@
-transformers[tf,torch,sentencepiece,vision,optuna,sklearn,onnxruntime]==4.11.3
-datasets[audio]==1.16.1
-matplotlib
-ipywidgets
-bertviz==1.2.0
