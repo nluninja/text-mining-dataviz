@@ -1,0 +1,23 @@
+name: lesson13
+channels:
+  - pytorch
+  - defaults
+  - pyg
+  - conda-forge
+dependencies:
+  - python=3.9
+  - cudatoolkit=11.3
+  - pytorch-scatter
+  - pip
+  - notebook
+  - ipykernel
+  - ipywidgets
+  - git-lfs
+  - libsndfile
+  - pip:
+        - transformers[tf,torch,sentencepiece,vision,optuna,sklearn,onnxruntime]==4.11.3
+        - datasets[audio]==1.16.1
+        - matplotlib
+        - ipywidgets
+        - seqeval==1.2.2
+        - umap-learn==0.5.1
