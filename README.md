@@ -17,6 +17,6 @@ Course contents:
 * [Embeddings](./8.%20Embeddings/): moving to a wector-based representation for each word
 * [LSTM](./9.%20LSTM/): long-short term memory neural network for text generation and classification
 * [Transformers](./10.%20Transformers/): Transformers architecture
-* [BERT](./11.%20BERT/): use a BERT model for text classification
+* [BERT](./11.%20BERT/): use a BERT model for text classification and QA
 
 Updated: Academic Year 2024/2025
