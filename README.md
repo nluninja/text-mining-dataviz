@@ -1,4 +1,4 @@
-# Data Visualizazion and Text Mining course
+# Data Visualization and Text Mining course
 This repository contains the notebooks shown during the lessons of Data Visualization and Text Mining course.
 
 Course contents:
