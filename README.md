@@ -16,5 +16,7 @@ Course contents:
 * [Neural Networks](./7.%20Neural%20Networks/): how to classify data with Neural Networks - Tensorflow and PyTorch samples
 * [Embeddings](./8.%20Embeddings/): moving to a wector-based representation for each word
 * [LSTM](./9.%20LSTM/): long-short term memory neural network for text generation and classification
+* [Transformers](./10.%20Transformers/): Transformers architecture
+* [BERT](./11.%20BERT/): use a BERT model for text classification
 
 Updated: Academic Year 2024/2025
