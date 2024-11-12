@@ -18,5 +18,7 @@ Course contents:
 * [LSTM](./9.%20LSTM/): long-short term memory neural network for text generation and classification
 * [Transformers](./10.%20Transformers/): Transformers architecture
 * [BERT](./11.%20BERT/): use a BERT model for text classification and QA
+* [LLM](./12.%20LLM/): discover how generative models work for NLP use cases
 
 Updated: Academic Year 2024/2025
+
